@@ -46,3 +46,4 @@ streamlit.dataframe(my_data_rows)
 #allowing the user to add a fruit of his choice
 add_my_fruit = streamlit.text_input("What Fruit Would You Like to Add?")
 streamlit.write("Thanks for adding:",add_my_fruit)
+streamlit.execute("insert into fruit_load_list values('from streamlit')");
